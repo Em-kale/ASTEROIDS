@@ -1,6 +1,8 @@
 # ASTEROIDS
 This is a simple asteroid game I made to prove I can use threejs
 
+![Alt text](assets/Screenshot_20230719_155904.png)
+
 ### Prerequisites: 
 - Npm
 - Vite
