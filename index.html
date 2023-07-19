@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>ASTEROIDS</title>
+		<style>
+			body { margin: 0; }
+			#score {
+				position: absolute;
+				top: 10px;
+				z-index: 100;
+				left: 43%; 
+				display:block;
+				color: white; 
+			}
+			#highScore {
+				position: absolute;
+				top: 10px;
+				z-index: 100;
+				font-size: 30px;
+				display:block;
+				color: white; 
+			}
+			#gameOver {
+				position: absolute;
+				top: 250px;
+				width: 100%;
+				text-align: center;
+				z-index: 100;
+				display:block;
+				color: red; 
+				font-size: 100px;
+			}
+			#button {
+				font-size: 30px;
+				position: absolute;
+				left: 45%;
+				top: 70%;
+				display: block;
+				margin: auto; 
+				z-index: 1;
+				opacity: 0%;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 id="highScore">HIGHSCORE: 0</h1>
+		<h1 id="score">SCORE: 0</h1>
+		<h1 id="gameOver"></h1>
+		<button id="button"> Play Again </button>
+		<script type="module" src="/main.js"></script>
+	
+	</body>
+</html>
